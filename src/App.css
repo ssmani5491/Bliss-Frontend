@@ -1,0 +1,372 @@
+
+/* Page Background */
+/* .page-background {
+  background-image: url('https://example.com/your-background-image.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+} */
+
+/* Header */
+
+
+/* Card Styling */
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85); /* Transparent white card background */
+}
+
+/* Form Controls */
+.form-control {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.header-top-bar .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top-bar .login-register {
+  margin-left: auto; /* Push the login-register links to the right */
+}
+.about-page p,
+.about-page h1,
+.about-page h6,
+.about-page h4 {
+  color: inherit; /* Inherit from parent or default text color */
+}
+
+.about-text{
+   
+  text-align: start; 
+  /* padding-left: 300px; */
+}
+.about-img{
+  width: 80%;
+  padding-top: 10px;
+
+}
+.welcome-heading {
+  font-family: 'Poppins', sans-serif;  /* A modern, clean font */
+  font-weight: bold;                   /* Make the text stand out */
+  color: #333;                         /* Dark text color for contrast */
+  text-transform: uppercase;           /* Make it more dynamic and bold */
+  letter-spacing: 2px;                 /* Adds space between letters */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to make the text pop */
+  font-size: 2.5rem;                   /* Larger size to grab attention */
+  line-height: 1.3;                    /* Adjust line height for better spacing */
+  transition: all 0.3s ease;           /* Smooth transition effect */
+}
+.pink-icon {
+  color: rgb(231, 9, 46);
+}
+
+/* new pages */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  ;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu {
+  font-size: 0.9rem;
+}
+
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-item h4 {
+  font-size: 1.5rem;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.faq-item p {
+  font-size: 1rem;
+}
+
+.contact-form form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.img-circle {
+  width: 300px;         /* Adjust the size of the image */
+  height: 300px;        /* Ensure height equals width */
+  border-radius: 150%;   /* Create a circle */
+  object-fit: cover;    /* Ensure the image covers the area without distortion */
+}
+
+.mbbs-training-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mbbs-training-container h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.mbbs-training-container h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #34495e;
+}
+
+.mbbs-training-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.mbbs-training-container p {
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.mbbs-training-container strong {
+  color: #e74c3c;
+}
+.footer{
+  background-color: #223a66;
+color: #ffffff;
+
+}
+
+/* Media query for mobile view */
+/* @media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .header {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    font-size: 16px;
+    padding: 5px;
+  }
+} */
+
+/* @media (max-width: 480px) {
+  .banner .block h1 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .banner {
+    min-height: 450px;
+    background: #fff !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner .block h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .banner {
+    min-height: 450px;
+    background: #fff !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner .block h1 {
+    font-size: 56px;
+    line-height: 70px;
+  }
+  .banner {
+    background: #fff !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    background: #fff !important;
+  }
+} */
+
+@media (max-width: 480px) {
+  .about-img img {
+    object-fit: cover;
+    height: auto; /* Maintain height auto for mobile */
+    width: 100%;
+     /* Keep width 100% for smaller screens */
+  }
+
+  .col-sm-12 {
+    /* On small screens, the image will take full width */
+    width: 100%;
+    margin-bottom: 10px; /* Optional: Add space below the image */
+    
+  }
+}
+@media (max-width: 480px) {
+  .about-img img {
+    object-fit: fill;
+    height: 100px; /* Maintain height auto for mobile */
+    width: 100%; /* Keep width 100% for smaller screens */
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  .col-sm-12 {
+    /* On small screens, the image will take full width */
+    width: 100%;
+    margin-bottom: 10px; /* Optional: Add space below the image */
+  }
+}
